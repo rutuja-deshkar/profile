@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+body {
+  color: #575F7D;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240, 240, 240);
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  /*font-family: 'Raleway', sans-serif;*/
+}
+
+h1 {
+  color: #d79abc;
+}
+
+h2 {
+  color: #baabda;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2b2b28;
+}
+
+a:hover {
+  color: #8C8C8C;
+}
+
+.container {   /* This sets the width */
+  margin: 0 50px; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  width: 620px;
+  margin: 16px auto;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.icon-social {
+  font-size: 40px;
+  margin: 8px, 8px;
+  /*color: rgb(230, 230, 230);*/
+  opacity: 0.3;
+}
+
+.icon-social:hover {
+  opacity: 0.8;
+}
+
+.btn-dark {
+  /*background-color: #c2e8ce;*/
+  background-color: #f2a6a6;
+  color: white;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 4px;
+  transition: ease 0.3s;
+  margin: auto;
+}
+
+.btn-dark:hover {
+  background-color: #9E9E9E;
+  color: white;
+}
+
+
+@media (max-width: 1400px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
